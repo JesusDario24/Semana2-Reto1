@@ -1,0 +1,120 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+
+}
+ .header {
+     background-color: white;
+     display: flex;
+     flex-flow: column;
+     flex-wrap: nowrap;
+     height: 300px;
+ }
+    .menu {
+     background-color: white;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+
+
+ }
+        .header-img{
+            background-color: white;
+            flex: 1 1 auto;
+           
+           
+        }
+        .nav-bar{
+            background: #b8c0ff;
+            flex: 2 1 auto;
+           
+        }
+        .lista {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+            .enlace {
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+          
+        }
+           
+        
+    .text-main {
+            background: #cfe0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 70px;
+            padding-left: 70px;
+            text-align: center;
+        }
+        h1{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+           
+
+        
+        .formulario {
+            background: white;
+        }
+        
+ .section {
+     background: white;
+ }
+    .articulos {
+        background:#c2dfe3;
+    }
+        .article-p {
+            background: #c2dfe3;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            padding: 30px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 40px;
+
+        }
+        .article-p h4 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .article {background: #c2dfe3;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            padding: 30px;
+            text-align: center;}
+       
+.footer {
+    background: #4a4e69;
+   
+    
+}
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+    .div-footer-img{
+        width: 80px;
+        height: 80px;
+    }
+  

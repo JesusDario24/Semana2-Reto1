@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="menu">
+                <div class="header-img">
+                    <img src="./images/logo_200x200.png" alt="Logo" width="90px">
+
+                </div>
+                <nav class="nav-bar">
+                    <ul class="lista">
+                        <li><a class="enlace" href="">Suscribete</a></li>
+                        <li><a class="enlace" href="#video">Ver un video</a></li>
+                        <li><a class="enlace" href="#section">Mas información</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="text-main">
+                <div class="titulo">
+                    <h1><strong>Haz tu registro</strong></h1>
+
+
+                    <form action="">
+                        <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+                        <button id="envia" onclick="Enviar()">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </header>
+        <section class="section">
+            <div class="articulos">
+                <article id="section" class="article-p">
+                    <h4>Algunas consideraciones sobre cómo lograr un sitio web atractivo</h4>
+                    <ol>
+                        <li>
+                            <p>La saturación visual de textos e imágenes. Es esencial que el diseño del sitio web posea
+                                una estructura ordenada de forma que no presente una imagen caótica. Se ha comprobado
+                                que los sitios particularmente desorganizados provocan estrés en los visitantes por lo
+                                que, probablemente, estos no querrán regresar. Cuando se trata de diseño, recuerda que
+                                menos es más.</p>
+                        </li>
+                        <li>
+                            <p>Una navegación confusa. Los usuarios de internet suelen premiar la simplicidad. Y el
+                                mejor ejemplo de ello es Apple. Si tu sitio web cuenta con menús extensos y con
+                                múltiples enlaces, esto provoca la sensación de desorden y al visitante le será difícil
+                                moverse dentro del sitio web y comprender su organización. Recuerda además, que la
+                                organización da sensación de control y seguridad por lo que tus visitantes querrán
+                                volver.</p>
+                        </li>
+                        <li>
+                            <p>Publicidad excesiva. Cuando los sitios web están tan llenos de publicidad que cuesta
+                                encontrar el contenido y cuando se usan ventanas pop up que molestan al visitante, es
+                                muy probable que este no vuelva. Por supuesto, la solución no está en eliminar la
+                                publicidad sino en insertarla armónicamente con el diseño web.</p>
+                        </li>
+                        <li>
+                            <p>Incompatibilidad con navegadores y dispositivos móviles. Aunque no seas un programador
+                                experto, debes asegurarte de que tu sitio web tenga una visibilidad aceptable en los
+                                principales navegadores que se usan en la actualidad así como que posea una versión para
+                                los teléfonos inteligentes, tabletas y lectores de libros. De esta forma no te estarás
+                                cerrando a ninguna posibilidad. Debes recordar que a veces los navegadores producen
+                                superposiciones de textos e imágenes o provocan que el diseño se corra obligando a
+                                realizar desplazamientos muy largos. Por ende, lo mínimo que puedes hacer es revisar la
+                                funcionalidad de tu sitio web en los diferentes navegadores y dispositivos.</p>
+                        </li>
+
+                    </ol>
+                </article>
+                <article class="article" id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iWfncDG3M90"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </article>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <div class="div-footer">
+                <a href="#"><img class="div-footer-img" src="./images/fb.png" alt="Facebook"></a>
+                <a href="#"><img class="div-footer-img" src="./images/ig.png" alt="Instagram"></a>
+                <a href="#"><img class="div-footer-img" src="./images/tt.png" alt="Twitter"></a>
+                <a href="#"><img class="div-footer-img" src="./images/yout.png" alt="youtube"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
